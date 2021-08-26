@@ -1,9 +1,8 @@
-const os = require("os");
-console.log(`you are currently using ${os.arch()}`);
+const { sum } = require("./importExport/fibo");
+var arr = [4, 3, 2, 7];
+var k = 2;
+// console.log(
+//   `The ${k}th smallest element in the array ${arr} is ${fun(arr, k)}`
+// );
 
-console.log(`your operating system type is ${os.type()}`);
-const res = os.cpus();
-const ans = res[0].model;
-const ans1 = res[0].speed;
-console.log(`CPU: ${ans}`);
-console.log(` speed: ${ans1}`);
+console.log(`The sum of given array ${arr} is ${sum(arr)}`);
