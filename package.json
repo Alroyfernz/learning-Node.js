@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alroyfernz/learning-Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alroyfernz/learning-Node.js/issues"
+  },
+  "homepage": "https://github.com/Alroyfernz/learning-Node.js#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
